@@ -20,6 +20,9 @@ input_params = (('AAAABBBCCDAABBB', ['A', 'B', 'C', 'D', 'A', 'B']),
                 (["a", "b", "b", "a"], ["a", "b", "a"]))
 
 
+@pytest.mark.kyu_6
+@pytest.mark.algorithms
+@pytest.mark.fundamentals
 @pytest.mark.parametrize('sequence, exp_list', input_params)
 def test_unique_in_order(sequence, exp_list):
 
