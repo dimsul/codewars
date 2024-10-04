@@ -11,7 +11,7 @@
 import re
 
 
-def order(sentence: str):
+def order(sentence: str) -> str:
     sentence = sorted(sentence.split(' '), key=lambda word: re.findall(r'\d', word))
     return ' '.join(sentence)
 

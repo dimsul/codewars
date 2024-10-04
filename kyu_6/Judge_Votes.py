@@ -6,7 +6,7 @@
 #
 # If the bit is set, the candidate received a vote. There are up to 1000 voters that all voted.
 #
-# In this elections there can only be a unanimous winner. Output the number of the winner or 0 if
+# In these elections there can only be a unanimous winner. Output the number of the winner or 0 if
 # there are no winners or multiple winners.
 #
 # The votes made by the voters are given in an array of integers.
