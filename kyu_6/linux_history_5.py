@@ -1,5 +1,5 @@
 # In this kata you should complete a function that take in
-# an string that correspond to s, and an history with the following format:
+# a string that correspond to s, and a history with the following format:
 #
 #   1  cd /pub
 #   2  more beer
@@ -12,7 +12,7 @@
 #
 # and that should return the most recent command line that contains
 # executed command line s, for example with s="me" and the above
-# history it should return more me. If user ask for a s without any
+# history it should return more me. If user ask for an s without any
 # know entry for example n=you here, the function should return
 # !you: event not found.
 
