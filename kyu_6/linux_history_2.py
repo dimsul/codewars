@@ -13,7 +13,7 @@
 #
 # and that should return the nth executed command line,
 # for example with n=4 and the above history it should
-# return ls. If user ask for a without any know entry
+# return ls. If user ask for an n without any know entry
 # for example n=12 here, the function should return !12:
 # event not found. Note: For this kata we will assume that n >= 1.
 
