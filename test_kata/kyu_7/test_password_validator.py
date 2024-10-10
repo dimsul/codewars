@@ -16,6 +16,9 @@ test_data = (("Abcd1234", True),
              ("4aA1----", True),)
 
 
+@pytest.mark.algorithms
+@pytest.mark.fundamentals
+@pytest.mark.regular_expressions
 @pytest.mark.parametrize('st, exp_result', test_data)
 def test_password(st, exp_result):
     result = password(st)
