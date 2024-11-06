@@ -1,1 +1,1 @@
-__all__ = ['password_validator']
+__all__ = ['password_validator', 'regex_validate_pin_code']
